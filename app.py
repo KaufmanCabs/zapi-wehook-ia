@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = os.getenv(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)
-ZAPI_INSTANCE = os.getenv(https://api.z-api.io/instances/3E4FE8ADEA217089D7C596DEC512DD4C/token/38AD93FD88F22C35B4E73392/send-text)  # URL base da sua instância Z-API
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+ZAPI_INSTANCE = os.getenv("ZAPI_INSTANCE")  # URL base da sua instância Z-API
 
 # Rota de teste
 @app.route("/")
