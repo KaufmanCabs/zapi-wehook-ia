@@ -1,4 +1,2 @@
 flask
-openai
-gtts
-requests
+gunicorn
